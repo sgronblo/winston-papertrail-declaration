@@ -31,3 +31,7 @@ declare module "winston" {
         Papertrail: PapertrailTransportInstance
     }
 }
+
+declare module "winston-papertrail" {
+    const Papertrail: PapertrailTransportInstance
+}
